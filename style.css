@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input, select {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input {
+    width: 50%;
+  }
+  
+  select {
+    width: 25%;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .low {
+    background-color: #d4edda;
+  }
+  
+  .medium {
+    background-color: #fff3cd;
+  }
+  
+  .high {
+    background-color: #f8d7da;
+  }
+  
+  li span {
+    flex-grow: 1;
+  }
+  
+  .edit-btn, .delete-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    color: #ffc107;
+    margin-right: 10px;
+  }
+  
+  .delete-btn {
+    color: #dc3545;
+  }
+  
+  .edit-btn:hover {
+    color: #e0a800;
+  }
+  
+  .delete-btn:hover {
+    color: #c82333;
+  }
+  
